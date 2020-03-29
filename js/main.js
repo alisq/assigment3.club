@@ -10,11 +10,7 @@ calculate();
 var x = setInterval(function() {
   calculate();
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    //$("#countdown").innerHTML = "EXPIRED";
-  }
+  
 }, 1000);
 
 
@@ -26,4 +22,10 @@ function calculate() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   $("#countdown").html(days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
+
+
+  if (distance < 0) {
+    clearInterval(x);
+    $("#countdown-container").fadeOut(0)
+  }
 }
