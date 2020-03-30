@@ -85,7 +85,7 @@ h3 {
 	letter-spacing:-0.02em;
 }
 
-h4 {
+h4, .h4 {
 	/*text-decoration:underline;*/
 	font-family:"Old Standard TT";
 	text-transform:uppercase;
@@ -93,7 +93,7 @@ h4 {
 	/*font-weight:bold;*/
 	letter-spacing: 0.075em;
 	position:relative;
-	top:4px;
+	top:2px;
 }
 
 hr {
@@ -162,6 +162,8 @@ content:'\2197';
 	padding:0;
 
 	/*min-width:8em;*/
+	}
 
-}
+	.right {order:1;}
+	.left {order:2;}
 }
