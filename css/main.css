@@ -10,6 +10,8 @@
   font-stretch: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
 ::-moz-selection { /* Code for Firefox */
   color: white;
   background: #00F;
@@ -53,7 +55,7 @@ ul {
 
 #container {
 	display:grid;
-	max-width:1300px;
+	max-width:1600px;
 	grid-template-columns:3fr 1fr;
 	grid-column-gap:1.5rem;
 	margin:2em auto;
@@ -71,7 +73,14 @@ h3 {
 }
 
 h4 {
-	text-decoration:underline;
+	/*text-decoration:underline;*/
+	font-family:"Old Standard TT";
+	text-transform:uppercase;
+	font-size:0.75em;
+	/*font-weight:bold;*/
+	letter-spacing: 0.075em;
+	position:relative;
+	top:4px;
 }
 
 hr {
