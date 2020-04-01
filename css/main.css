@@ -1,4 +1,6 @@
-
+:root {
+  --main-color: #222222;
+}
 @font-face {
   font-family: 'Atlas Grotesk Web';
   src: url('../fonts/AtlasGrotesk-Regular-Web.eot');
@@ -14,12 +16,14 @@
 
 ::-moz-selection { /* Code for Firefox */
   color: white;
-  background: #000;
+  background: var(--main-color)
+  ;
 }
 
 ::selection {
   color: white;
-  background: #000;
+  background: var(--main-color)
+  ;
 }
 
 
@@ -32,9 +36,11 @@ text-decoration:none;
 a,
 a:link,
 a:visited {
-	color:#000;
+	color:var(--main-color)
+	;
 	text-decoration:underline;
-	/*border-bottom:0.15em dotted #000;*/
+	/*border-bottom:0.15em dotted var(--main-color)
+	;*/
 }
 
 a:hover {
@@ -52,8 +58,10 @@ top:-5px; left:5px;
 
 
 body {
-	color:#000;
+	color:var(--main-color)
+	;
 	font-family: 'Atlas Grotesk Web';
+
 	font-weight:  400;
 	font-style:   normal;
 	font-stretch: normal;
@@ -81,8 +89,10 @@ h1, h2, h3, h4, h5, p {
 
 h3 {
 	font-size:2em;
-	line-height:1.2em;
+	line-height:1.1em;
 	letter-spacing:-0.02em;
+	font-family: 'Old Standard TT';
+	font-size:2.4em;
 }
 
 h4, .h4 {
@@ -98,7 +108,8 @@ h4, .h4 {
 
 hr {
 	margin: 2em 0;
-    border: 4px solid #000;
+    border: 4px solid var(--main-color)
+    ;
     width: 10%;
 }
 
@@ -112,7 +123,8 @@ content:'\2197';
 	top:50%; left:50%;
 	transform:translate(-50%,-50%);
 	background:#FFF;
-	border:3px solid #000;
+	border:3px solid var(--main-color)
+	;
 	text-align: center
 }
 
