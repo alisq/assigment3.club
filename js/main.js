@@ -2,7 +2,7 @@ $(".close").click(function(){
   $("#countdown-container").fadeOut(200)
 })
 
-var countDownDate = new Date("Apr 1, 2020 20:30:00").getTime();
+var countDownDate = new Date("Apr 1, 2019 20:30:00").getTime();
 
 calculate();
 
@@ -26,6 +26,6 @@ function calculate() {
 
   if (distance < 0) {
     clearInterval(x);
-    $("#countdown-container").fadeOut(0)
+    $("#countdown").fadeOut(0)
   }
 }
