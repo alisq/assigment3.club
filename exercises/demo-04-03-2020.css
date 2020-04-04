@@ -1,0 +1,115 @@
+html, body {
+	min-height:2000px;
+	height:100%;
+}
+
+
+img {
+	width:700px;
+}
+
+/*
+.bike {
+	position:absolute;
+}
+
+.bike1 {
+	top:50px;
+	left:50px;
+}
+
+.bike2 {
+	top:250px;
+	left:350px;
+	opacity:0.4;
+}*/
+
+h1 {
+	position:absolute;
+	top:50px;
+	left:50px;
+	/*font-weight:normal;*/
+	font-size:150px;
+	color:blue;
+	mix-blend-mode: multiply;
+
+	transform:rotate(15deg);
+	transform-origin: 0 0;
+	border:1px solid black;
+
+}
+
+.green {
+	width:500px;
+	height:500px;
+	border-top-right-radius: 50%;
+	background:red;
+}
+
+
+.concave-edge-container {
+	position:relative;
+	top:50px; left:50%;
+}
+
+.rect {
+	width:300px;
+	height:500px;
+	border:2px solid red;
+		
+	position:absolute;
+	top:0; left:0;
+}
+
+.oval {
+
+      width: 200px;
+      height: 500px;
+      border:2px solid red;
+      background:white;
+      border-radius: 200px / 500px;
+      position:absolute;
+      top:0;
+      left:200px;
+    
+}
+
+.rect-again {
+
+      width: 400px;
+      height: 504px;
+      /*border-top:2px solid red;
+      border-left:2px solid red;
+      */background:white;
+      position:absolute;
+      top:0;
+      left:300px;
+    
+}
+
+
+.position-demo-container {
+	border:1px solid #000;
+	width:500px; height:500px;
+	position:relative;
+}
+
+.position-demo {
+	border:40px solid #00ff08;
+	border-radius:50%;
+	width:60px;
+	height:60px;
+
+	position:absolute;
+
+	bottom:60px; right:60px;
+}
+
+
+
+
+
+
+
+
+
