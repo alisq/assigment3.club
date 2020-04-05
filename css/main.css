@@ -72,6 +72,11 @@ body {
 
 ul {
 	margin:0 0 0 -1.8em;
+	list-style-type: circle;
+}
+
+li {
+	margin-bottom:0.5em;
 }
 
 #container {
