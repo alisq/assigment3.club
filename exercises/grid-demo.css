@@ -1,0 +1,26 @@
+.lange {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:10px;
+	max-width:1400px;
+	margin:auto;
+}
+
+.item {
+	background:black;
+	padding:20px;
+	border-radius:5px;
+	color:#FFFFFF;
+}
+
+.header,
+.footer {
+	text-align:center;
+	grid-column-start:1;
+	grid-column-end:4;
+}
+
+.main-content {
+	grid-column-start:2;
+	grid-column-end:4;
+}

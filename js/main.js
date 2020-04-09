@@ -2,7 +2,7 @@ $(".close").click(function(){
   $("#countdown-container").fadeOut(200)
 })
 
-var countDownDate = new Date("Apr 8, 2020 20:30:00").getTime();
+var countDownDate = new Date("Apr 10, 2020 20:30:00").getTime();
 
 calculate();
 
