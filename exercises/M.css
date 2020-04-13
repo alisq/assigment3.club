@@ -1,3 +1,11 @@
+:root {
+  --bg-color: #FFF;
+}
+
+body {
+	background: var(--bg-color);
+}
+
 .letter {
 			position:relative;
 			width:200px;
@@ -10,6 +18,8 @@
 		.letter-m { width:170px; }
 		.letter-n { width:133px; }
 		.letter-o { width:139px; }
+		.letter-s { width:90px; }
+		.letter-t { width:124px; }
 
 		.bracket {
 			box-sizing: border-box;
@@ -52,7 +62,7 @@
 		.b-circle-top-left {
 			width:30px;
 			height:30px;
-			background:white;
+			background:var(--bg-color);
 			position:absolute;
 			top:0; left:0;
 			border-top-left-radius: 10px;
@@ -62,7 +72,7 @@
 		.b-circle-top-right {
 			width:30px;
 			height:30px;
-			background:white;
+			background:var(--bg-color);
 			position:absolute;
 			top:0; right:0;
 			border-top-right-radius: 10px
@@ -72,7 +82,7 @@
 		.b-circle-bottom-left {
 			width:30px;
 			height:30px;
-			background:white;
+			background:var(--bg-color);
 			position:absolute;
 			bottom:0; right:0;
 			border-bottom-right-radius: 10px
@@ -81,7 +91,7 @@
 		.b-circle-bottom-right {
 			width:30px;
 			height:30px;
-			background:white;
+			background:var(--bg-color);
 			position:absolute;
 			bottom: 0;
     		left: 0;
@@ -190,7 +200,7 @@
 		.letter-m .bottom-knockout {
 			width:20px;
 			height:20px;
-			background:white;
+			background:var(--bg-color);
 			position:absolute;
 			top: 160px;
     		left: 90px;
@@ -203,7 +213,7 @@
 		.letter-n .bottom-knockout {
 			width: 20px;
 		    height: 40px;
-		    background: white;
+		    background: var(--bg-color);
 		    position: absolute;
 		    top: 150px;
 		    left: 113px;
@@ -215,6 +225,14 @@
 		.serif {
 			height:2px;
 			width:36px;
+			background:black;
+			position:absolute;
+		}
+
+
+		.serif-vertical {
+			width:2px;
+			height:23px;
 			background:black;
 			position:absolute;
 		}
@@ -268,7 +286,7 @@
 
 		.o-counter {
 			position:absolute;
-			background:white;
+			background:var(--bg-color);
 			height:144px;
 			width:95px;
 			top:50px;
@@ -287,7 +305,7 @@
 
 		.letter-s .top-white{
 			width:45px; height:45px;
-			background:white;
+			background:var(--bg-color);
 			border-radius:50%;
 			position:absolute;	
 			top:53px;	left:7px;
@@ -304,10 +322,10 @@
 			top: 98px;
 		}
 
-		.letter-s .bottom-white{
+		.letter-s .bottom-white {
 			width:75px;
 			height:75px;
-			background:white;
+			background:var(--bg-color);
 			border-radius:50%;
 			position:absolute;
 			top:110px;
@@ -315,18 +333,27 @@
 		}
 
 		.letter-s .spine-above {
+			width: 25px;
+		    height: 72px;
+		    background: var(--bg-color);
+		    position: absolute;
+		    top: 46px;
+		    left: 35px;
+		}
+
+		.letter-s .top-blockout {
 			width: 27px;
-			height: 72px;
-			background: white;
+			height: 49px;
+			background: var(--bg-color);
 			position: absolute;
 			top: 46px;
-			left: 30px;
+			left: 36px;
 		}
 
 		.letter-s .spine-below {
 			width: 53px;
 			height:62px;
-			background:white;
+			background:var(--bg-color);
 			position:absolute;
 			top: 110px;
 			left:0px;
@@ -341,8 +368,67 @@
 		}
 
 		.s-interior {
-			transform:rotate(21deg);
+			position:relative;
+			top: -2px;
+    		left: -37px;
+			transform:rotate(26deg);
 			transform-origin:50% 200px;
 		}
 
+		.letter-t .stem {
+			width:20px;
+			height:140px;
+			background:black;
+			position:absolute;
+			top:50px; 
+			left:52px;
+		}
 
+
+		.letter-t .arms {
+			width:120px;
+			height:5px;
+			background:black;
+			position:absolute;
+			top:48px; 
+			left:2px;
+		}
+
+
+		.letter-t .bottom-serif {
+			
+			top:190px; 
+			left:37px;
+		}
+
+		.letter-t .bracket-bottom-left {
+			top:176px;
+			left:38px;
+		}
+
+			.letter-t .bracket-bottom-right {
+			top:176px;
+			left:72px;
+		}
+
+
+
+		.letter-t .left-serif {
+			left:0;
+			top:48px;
+		}
+			.letter-t .right-serif {
+				top:48px;
+				left:122px;
+			}
+
+		.letter-t .bracket-top-left-vertical {
+			top:53px;
+			left:2px;
+
+		}
+		.letter-t .bracket-top-right-vertical {
+			top:53px;
+			left:108px;
+
+		}
