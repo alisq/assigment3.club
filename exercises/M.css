@@ -12,9 +12,10 @@ body {
 			height:200px;
 			border:1px solid #ccc;
 			display:inline-block;
+			overflow:hidden;
 		}
 
-
+		.letter-i { width:36px; }
 		.letter-m { width:170px; }
 		.letter-n { width:133px; }
 		.letter-o { width:139px; }
@@ -431,4 +432,44 @@ body {
 			top:53px;
 			left:108px;
 
+		}
+
+
+		.letter-i .stem {
+			width:20px;
+			height:140px;
+			background:black;
+			position:absolute;
+			top:50px; 
+			left:7px;
+		}
+
+		.letter-i .top-serif {
+			left:0;
+			top:48px;
+		}
+
+		.letter-i .bottom-serif {
+			left:0;
+			top:190px; 
+		}
+
+		.bracket-top-left {
+			top:50px;
+			left:-7px;
+		}
+
+		.bracket-top-right {
+			top:50px;
+			left:27px;
+		}
+
+		.bracket-bottom-left {
+			top:176px;
+			left:-7px;
+		}
+
+		.bracket-bottom-right {
+			top:176px;
+			left:27px;
 		}
