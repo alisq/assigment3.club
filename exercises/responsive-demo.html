@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body {
+	background:red;
+}
+
+
+.container {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:20px;
+
+	max-width:1000px;
+	margin:auto;
+}
+
+.item {
+	background:black;
+	min-height:200px;
+	font-size:50px;
+	color:#FFF;
+}
+
+
+@media (max-width:1100px) {
+
+	body {
+		background:blue;
+	}
+
+	.container {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.item2 {
+		grid-column-start:1;
+		grid-column-end:3;
+		background:red;
+	}
+
+}
+
+@media (max-width:700px) {
+
+	body {
+		background:white;
+	}
+
+	.container {
+		grid-template-columns: 1fr;
+	}
+
+	.item1 {
+		display:none;
+	}
+
+	.item2 {
+		grid-column-start:1;
+		grid-column-end:1;
+		
+	}
+
+}
+	</style>
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="item item1">1</div>
+		<div class="item item2">2</div>
+		<div class="item">3</div>
+		<div class="item">4</div>
+		<div class="item">5</div>
+		<div class="item">6</div>
+	</div>
+
+</body>
+</html>

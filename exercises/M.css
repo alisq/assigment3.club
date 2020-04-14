@@ -4,13 +4,14 @@
 
 body {
 	background: var(--bg-color);
+	
 }
 
 .letter {
 			position:relative;
 			width:200px;
 			height:200px;
-			border:1px solid #ccc;
+			/*border:1px solid #ccc;*/
 			display:inline-block;
 			overflow:hidden;
 		}
@@ -388,7 +389,7 @@ body {
 
 		.letter-t .arms {
 			width:120px;
-			height:5px;
+			height:4px;
 			background:black;
 			position:absolute;
 			top:48px; 
@@ -424,12 +425,12 @@ body {
 			}
 
 		.letter-t .bracket-top-left-vertical {
-			top:53px;
+			top:52px;
 			left:2px;
 
 		}
 		.letter-t .bracket-top-right-vertical {
-			top:53px;
+			top:52px;
 			left:108px;
 
 		}
@@ -473,3 +474,10 @@ body {
 			top:176px;
 			left:27px;
 		}
+
+
+.snot-text {
+	position:fixed;
+	top:50px;
+
+}
