@@ -11,7 +11,7 @@ body {
 			position:relative;
 			width:200px;
 			height:200px;
-			/*border:1px solid #ccc;*/
+			border:1px solid #ccc;
 			display:inline-block;
 			overflow:hidden;
 		}
@@ -19,7 +19,7 @@ body {
 		.letter-i { width:36px; }
 		.letter-m { width:170px; }
 		.letter-n { width:133px; }
-		.letter-o { width:139px; }
+		.letter-o { width:141px; }
 		.letter-s { width:90px; }
 		.letter-t { width:124px; }
 
@@ -455,29 +455,114 @@ body {
 			top:190px; 
 		}
 
-		.bracket-top-left {
+		.letter-i .bracket-top-left {
 			top:50px;
 			left:-7px;
 		}
 
-		.bracket-top-right {
+		.letter-i .bracket-top-right {
 			top:50px;
 			left:27px;
 		}
 
-		.bracket-bottom-left {
+		.letter-i .bracket-bottom-left {
 			top:176px;
 			left:-7px;
 		}
 
-		.bracket-bottom-right {
+		.letter-i .bracket-bottom-right {
 			top:176px;
 			left:27px;
 		}
 
 
-.snot-text {
-	position:fixed;
-	top:50px;
+		/* H */
 
-}
+		.letter-h .stem-left {
+			width:20px;
+			height:140px;
+			background:black;
+			position:absolute;
+			top:50px; 
+			left:14px;
+		}
+
+		.letter-h .stem-right {
+			width:20px;
+			height:140px;
+			background:black;
+			position:absolute;
+			top:50px; 
+			left:107px;
+		}
+
+		.letter-h .top-left-serif {
+			left:0;
+			top:48px;
+		}
+
+		.letter-h .top-right-serif {
+			left:92px;
+			top:48px;
+		}
+
+		.letter-h .bottom-left-serif {
+			left:0;
+			top:190px; 
+		}
+
+		.letter-h .bottom-right-serif {
+			left:92px;
+			top:190px; 
+		}
+
+		.letter-h .bracket-left-top-left {
+			top:50px;
+			left:0px;
+		}
+
+		.letter-h .bracket-right-top-left {
+			top:50px;
+			left:93px;
+		}
+
+		.letter-h .bracket-left-top-right {
+			top:50px;
+			left:34px;
+		}
+
+		.letter-h .bracket-right-top-right {
+			top:50px;
+			left:127px;
+		}
+
+		.letter-h .bracket-left-bottom-left {
+			top:176px;
+			left:0px;
+		}
+
+		.letter-h .bracket-right-bottom-left {
+			top:176px;
+			left:93px;
+		}
+
+		.letter-h .bracket-left-bottom-right {
+			top:176px;
+			left:34px;
+		}
+
+		.letter-h .bracket-right-bottom-right {
+			top:176px;
+			left:127px;
+		}
+
+		.letter-h .crossbar {
+			background:black;
+			height:5px;
+			position:absolute;
+			width:113px;
+			left:14px;
+			top:120px;
+
+		}
+
