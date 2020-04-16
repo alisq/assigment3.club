@@ -16,12 +16,14 @@ body {
 			overflow:hidden;
 		}
 
+		.letter-h { width:143px; }
 		.letter-i { width:36px; }
 		.letter-m { width:170px; }
 		.letter-n { width:133px; }
 		.letter-o { width:141px; }
 		.letter-s { width:90px; }
 		.letter-t { width:124px; }
+
 
 		.bracket {
 			box-sizing: border-box;
