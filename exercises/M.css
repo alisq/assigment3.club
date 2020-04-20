@@ -15,7 +15,7 @@ body {
 			display:inline-block;
 			overflow:hidden;
 		}
-
+		.letter-a { width:147px; }
 		.letter-h { width:143px; }
 		.letter-i { width:36px; }
 		.letter-m { width:170px; }
@@ -292,9 +292,9 @@ body {
 			position:absolute;
 			background:var(--bg-color);
 			height:144px;
-			width:95px;
+			width:102px;
 			top:50px;
-			left:23px;
+			left:19px;
 			border-radius:50%;
 		}
 
